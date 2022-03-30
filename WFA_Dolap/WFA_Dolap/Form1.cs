@@ -39,7 +39,7 @@ namespace WFA_Dolap
             tshirt.Model = model;
             tshirt.Renk = renk;
             tshirt.Beden = beden;
-            tshirt.Kategori = base.Name;
+            tshirt.Kategori = "Giyim";
             tshirt.Fiyat = fiyat;
             return tshirt;
 
@@ -51,7 +51,7 @@ namespace WFA_Dolap
             pantolon.Model = model;
             pantolon.Renk = renk;
             pantolon.Beden = beden;
-            pantolon.Kategori = base.Name;
+            pantolon.Kategori = "Giyim";
             pantolon.Fiyat = fiyat;
             pantolon.KumasTuru = kumasTuru;
             return pantolon;
@@ -63,7 +63,7 @@ namespace WFA_Dolap
             mont.Model = model;
             mont.Renk = renk;
             mont.Beden = beden;
-            mont.Kategori = base.Name;
+            mont.Kategori = "Giyim";
             mont.Fiyat = fiyat;
             mont.WaterProof = waterproof;
             return mont;
