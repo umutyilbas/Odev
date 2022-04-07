@@ -34,7 +34,7 @@ namespace WFA_McAdam
 
             if (Ekstralar.Count < 1)
             {
-                return Menu.Ad + " Sipariş Adedi: " + Adet + " Toplam Fiyat: " + Fiyat;
+                return Menu.Ad + " Sipariş Adedi: " + Adet + " Toplam Fiyat: " + Fiyat.ToString("C2");
             }
             else
             {
@@ -43,7 +43,7 @@ namespace WFA_McAdam
                     format += ekstra;
 
                 }
-                return Menu.Ad+" Menü " + format + " Sipariş Adedi: " + Adet + " Toplam Fiyat: " + Fiyat;
+                return Menu.Ad+" Menü " + format + " Sipariş Adedi: " + Adet + " Toplam Fiyat: " + Fiyat.ToString("C2");
             }
 
 
